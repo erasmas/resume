@@ -12,40 +12,30 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 800px;
     margin: auto;
-    background: #FFFFFF;
+    background: white; /* White background */
     padding: 10px 10px 10px 10px;
 }
 
 /* Title of the resume */
 h1 {
     font-size: 55px;
-    color: #757575;
-    text-align:center;
-    margin-bottom:15px;
-}
-h1:hover {
-    background-color: #757575;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
+    color: #0057A5; /* Ukrainian blue */
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 /* Titles of categories */
 h2 {
-    color: #397249;
+    color: #0057A5; /* Ukrainian blue */
 }
 /* There is a bar just before each category */
 h2:before {
     content: "";
     display: inline-block;
-    margin-right:1%;
+    margin-right: 1%;
     width: 16%;
     height: 10px;
-    background-color: #9CB770;
-}
-h2:hover {
-    background-color: #397249;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
+    background-color: #FFD100; /* Ukrainian yellow */
 }
 
 /* Definitions */
@@ -53,34 +43,39 @@ dt {
     float: left;
     clear: left;
     width: 17%;
-    /*font-weight: bold;*/
 }
 dd {
     margin-left: 17%;
 }
 p {
-    margin-top:0;
-    margin-bottom:7px;
+    margin-top: 0;
+    margin-bottom: 7px;
 }
 
 /* Blockquotes */
 blockquote {
-    text-align: center
+    text-align: center;
 }
 
 /* Links */
 a {
     text-decoration: none;
-    color: #397249;
+    color: #0057A5; /* Ukrainian blue */
 }
 a:hover, a:active {
-    background-color: #397249;
-    color: #FFFFFF;
+    background-color: #0057A5;
+    color: white;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
 }
 
 /* Horizontal separators */
 hr {
-    color: #A6A6A6;
+    border: none; /* Remove default border */
+    height: 2px; /* Set the thickness of the line */
+    background-color: black; /* Solid black color */
+    margin: 10px 0; /* Adjust margin as needed */
+}
+em {
+    color: #0057A5; /* Ukrainian blue */
 }

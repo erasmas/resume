@@ -8,10 +8,18 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
@@ -40,7 +48,7 @@ that in any language.</p>
 <dl>
 <dt><strong>Programming</strong></dt>
 <dd>
-<p>Clojure, Java, SQL, Kotlin, Python, Ruby, Bash</p>
+<p>Clojure, Java, SQL, Python, Bash</p>
 </dd>
 <dt><strong>Data Storages</strong></dt>
 <dd>
@@ -53,7 +61,7 @@ that in any language.</p>
 <dt><strong>Non-commercial Experience</strong></dt>
 <dd>
 <ul>
-<li>F#, OCaml, Rust</li>
+<li>F#, OCaml, Rust, Elixir</li>
 <li><a
 href="https://user.fm/files/v2-e783da7278612d3e1d197d8d4094ff29/Morozov%20Dmytro.jpg">Linear
 Algebra for Data Science</a></li>
@@ -62,7 +70,33 @@ Algebra for Data Science</a></li>
 </dl>
 <h2 id="experience">Experience</h2>
 <dl>
-<dt>2021 - Current</dt>
+<dt>2022 - Present</dt>
+<dd>
+<p><strong>Senior Software Engineer | <a
+href="https://draftwise.com">DraftWise</a></strong></p>
+<p>DraftWise is a leading provider of secure end-to-end drafting and
+negotiating AI solutions tailored for legal professionals.</p>
+<p>As a backend and infrastructure engineer I engaged in the design,
+development, and maintenance of robust backend systems.</p>
+<ul>
+<li>Introduced and implemented monitoring and alerting solution based on
+Prometheus, AWS managed Grafana and micrometer. This greatly helped
+engineers in discovering and fixing bugs and performance issues.
+Monitoring infrastructure was managed by code and allowed for quick and
+painless updates.</li>
+<li>Implemented a new microservice in Python which used an ML approach
+to find entities in given paragraphs. This service became essential for
+one of the product’s core features.</li>
+<li>Established an ETL pipeline to gather public contracts from <a
+href="https://www.sec.gov/edgar/about">EDGAR</a> on a daily basis and
+make them ready for importing. This integration allowed our users to
+leverage publicly available EDGAR data while leveraging DraftWise search
+and drafting features.</li>
+</ul>
+<p><em>java, python, typescript, docker, aws, postgresql,
+elasticsearch</em></p>
+</dd>
+<dt>2021 - 2022</dt>
 <dd>
 <p><strong>Senior Software Engineer | <a
 href="https://hopin.com">Hopin</a></strong></p>
