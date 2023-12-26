@@ -17,7 +17,7 @@ Skills
 --------------------
 **Programming**
 
-:   Clojure, Java, SQL, Kotlin, Python, Ruby, Bash
+:   Clojure, Java, SQL, Python, Bash
 
 **Data Storages**
 
@@ -29,12 +29,29 @@ Skills
 
 **Non-commercial Experience**
 
-:    - F#, OCaml, Rust
+:    - F#, OCaml, Rust, Elixir
      - [Linear Algebra for Data Science](https://user.fm/files/v2-e783da7278612d3e1d197d8d4094ff29/Morozov%20Dmytro.jpg)
 
 Experience
 --------------------
-2021 - Current
+2022 - Present
+:   **Senior Software Engineer | [DraftWise](https://draftwise.com)**
+
+    DraftWise is a leading provider of secure end-to-end drafting and negotiating AI solutions tailored for legal professionals.
+    
+    As a backend and infrastructure engineer I engaged in the design, development, and maintenance of robust backend systems.
+
+    - Introduced and implemented monitoring and alerting solution based on Prometheus, AWS managed Grafana and micrometer.
+    This greatly helped engineers in discovering and fixing bugs and performance issues. Monitoring infrastructure was managed by code
+    and allowed for quick and painless updates.
+    - Implemented a new microservice in Python which used an ML approach to find entities in given paragraphs.
+    This service became essential for one of the product's core features.
+    - Established an ETL pipeline to gather public contracts from [EDGAR](https://www.sec.gov/edgar/about) on a daily basis and make them ready for importing.
+    This integration allowed our users to leverage publicly available EDGAR data while leveraging DraftWise search and drafting features.
+
+    _java, python, typescript, docker, aws, postgresql, elasticsearch_
+
+2021 - 2022
 :   **Senior Software Engineer | [Hopin](https://hopin.com)**
 
     Backend development for a hybrid event platform.
